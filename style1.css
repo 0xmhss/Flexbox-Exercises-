@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: rgb(10, 8, 107);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-attachment: fixed;
+    height: 80px;
+}
+.first{
+    display: flex;
+}
+.first > h1{
+    font-size: 2.5rem;
+    color: white;
+    padding-left: 30px;
+    align-self: center;
+
+}
+.second p , .second select{
+    font-size: 23px;
+}
+.second{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-right: 20px;
+}
+.second p{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    height: 45px;
+    width: 120px;
+    background-color: rgb(181, 20, 196);
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header select {
+    background-color: rgb(10, 8, 107);
+    border-color: rgb(10, 8, 107);
+    color: white;
+}
+
+main{
+    background-image: url(test.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main > h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+main > h2{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 0px;
+
+}
+main > div > button{
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    border-color: white;
+}
+.first-btn{
+    background-color: rgba(110, 222, 90, 0.894);
+    border-color: rgba(87, 234, 57, 0.894);
+}
